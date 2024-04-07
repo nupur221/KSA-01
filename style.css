@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: #172e26;
+    float: left;
+}
+
+.logo{
+    float: left;
+    padding: 10px;
+    width: 30%;
+}
+.logo h2{
+    color: white;
+    font-size: 25px;
+}
+
+.menu{
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px; 
+    font-size: 20px; 
+}
+
+.menu a:hover{
+    background-color: #307b76;
+}
+
+.banner{
+    background-image: url(image/aurora.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .nupur{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.nupur img{
+    width: 50%;
+    position: relative;
+    top: 150px;
+    left: 220px;
+}
+
+.banner .about{
+    color: white;
+    text-align: center;
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 260px;
+    right: 50px;
+}
+
+.banner .about h1{
+    font-size: 50px;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    background-color: skyblue;
+}
+
+.content .Blog{
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+    left: 40px;
+}
+
+.content .aboutme{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.aboutme form input, button{
+    padding: 5px;
+    border: 1px solid #63edbc;
+    border-radius: 5px;
+}
+
+.aboutme form button{
+    background-color: #63edbc;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #63edbc;
+    display: block;
+    text-align: center;
+    padding: 40px;
+}
+
+footer ul{
+    margin: 0 auto;
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  div.container {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+
+  
+  @media (max-width: 575.98px) {
+    header{
+        height: 70px;
+    }
+    .menu{
+        visibility: hidden;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 7px;
+        font-size: 20px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .nupur img{
+        width: 100%;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+    .about{
+        margin-top: 90px;
+        position: relative;
+        left: -100px;
+        width: 100%;
+    }
+   .content{
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    background-color: skyblue;
+    
+   }
+
+   .content .Blog{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+}
+
+  .content .aboutme{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+  }
+  
+  
